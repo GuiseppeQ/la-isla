@@ -47,7 +47,7 @@ public class interacciones : MonoBehaviour
                 }
             }
         }
-        else if (tomar.childCount != 0 && Input.GetButtonDown("Fire1"))
+        else if (tomar.childCount != 0 && Input.GetButtonDown("Fire2"))
         {
             tomar.GetComponentInChildren<Rigidbody>().isKinematic = false;
             tomar.transform.DetachChildren();
@@ -71,7 +71,7 @@ public class interacciones : MonoBehaviour
                 }
             }
         }
-        else if (tomar.childCount != 0 && Input.GetButtonDown("Fire1"))
+        else if (tomar.childCount != 0 && Input.GetButtonDown("Fire2"))
         {
             tomar.GetComponentInChildren<Rigidbody>().isKinematic = false;
             tomar.transform.DetachChildren();
